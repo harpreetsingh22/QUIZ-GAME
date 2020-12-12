@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>QUIZ GAME</title>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header>
+        <div class="left">
+            <img src="c.jpg" alt="Logo">
+            </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#" >Home</a></li>
+                <li><a href="#" >About Corona</a></li>
+                <li><a href="#" >Symptoms</a></li>
+                <li><a href="#" >Prevention</a></li>
+                <li><a href="#" >Corona Helpline</a></li>
+            </ul>
+        </nav>
+        <div class="right">
+            <img src="map.jpg" alt="Logo1">
+        </div>
+    </header>
+    <div>
+        <marquee><span style="color: #e4420f;">NEWS: </span>India crosses 28 Lakhs Covid-19 Cases <span style="color: #e4420f;">| </span> Russia keen to produce its vaccine in India <span style="color: #e4420f;">| </span>India reports record single-day recoveries with over 60000 people recovered in a single day<span style="color: #e4420f;">| </span>USA witnessed 50000 Covid Deaths in just 23 days whereas India took 156 days for the same.
+        </marquee>
+    </div>
+    <div class="content">
+        <div class="present">
+            <h1 class="title">Save yourself Save the world.</h1>
+            <p class="paragraph">
+              The Coronavirus (COVID-19) was first reported in Wuhan, Hubei, 
+              China in December 2019, the outbreak was later recognized as pandemic 
+              by the World Health Organization (WHO) on 11 March 2020.
+            </p>
+        </div>
+        <div class="banner">
+
+          </div>
+    </div>
+    <div>
+        <h2 style="font-family: 'Source Sans Pro', sans-serif;">Are you aware about Covid-19? Let's check by playing a Quiz Game!!</h2>
+    </div>
+<div class="home-box custom-box ">
+	<h3>COVID-19 AWARENESS QUIZ GAME:</h3>
+	<p>Total number of questions: <span class="total-questions">10</span></p>
+	<button type="button" class="btn" onclick="startquiz()">START QUIZ</button>
+</div>
+
+<div class="quiz-box custom-box hide">
+<div class="question-number">
+	Question-number 1 0f 5 
+</div>
+<div class="question-text">
+	which month comes right before june?
+</div>
+<div class="options-container">
+
+</div>
+
+<div class="next-btn">
+ <button type="button" class="nextbtn" onclick="next()">NEXT</button>
+</div>
+
+<div class="answers-indicator">
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+
+</div>
+
+</div>
+
+
+<div class="result-box custom-box hide">
+	<h1>QUIZ RESULT</h1>
+    <table>
+    <tr>
+    <td>Total Questions</td>
+    <td><span class="total-questions"></span></td>
+    </tr>
+      <tr>
+    <td>Attempts</td>
+    <td><span class="total-attempt"></span></td>
+    </tr>
+   
+    <tr>
+    <td>Correct</td>
+    <td><span class="total-correct"></span></td>
+    </tr>
+    
+
+<tr>
+    <td>Wrong</td>
+    <td><span class="total-wrong"></span></td>
+    </tr>
+
+<tr>
+    <td>Percentage</td>
+    <td><span class="Percentage"></span></td>
+    </tr>
+
+
+<tr>
+    <td>Your total score</td>
+    <td><span class="total-score"></span></td>
+    </tr>
+
+    </table>
+   
+
+<button type="button" class="btn" onclick="tryagain()">TRY AGAIN</button>
+
+<button type="button" class="btn" onclick="gotohome()">GO TO HOME</button>
+
+</div>
+<div class="stats">
+    <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+   <div class="elfsight-app-60d6ff0d-6012-474c-a95f-ecedaaad7232"></div>
+</div>
+<div class="bottom-info">
+    <div class="bottom-list">
+      <div class="list-box">
+        <div class="list-box__count">213</div>
+        <div class="list-box__text">Affected Countries</div>
+      </div>
+      <span class="line"></span>
+      <div class="list-box">
+        <div class="list-box__count">22.7M</div>
+        <div class="list-box__text">Confirmed Cases</div>
+      </div>
+      <span class="line"></span>
+      <div class="list-box">
+        <div class="list-box__count">15.4M</div>
+        <div class="list-box__text">Recovered Cases</div>
+      </div>
+      <span class="line"></span>
+      <div class="list-box">
+        <div class="list-box__count">794K</div>
+        <div class="list-box__text">Worldwide Deaths</div>
+      </div>
+    </div>
+  </div>
+
+
+<script src="questions.js"></script>
+
+
+</body>
+
+</html>
+
+</html>
